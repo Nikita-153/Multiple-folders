@@ -28,7 +28,7 @@ pipeline {
                         BUILD_STAGE = "true"
                         break
                       }else{
-                        print("Else .................................:)")
+                        print("...............................:)")
                       }
                   }
                 } // End of script
