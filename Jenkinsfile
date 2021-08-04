@@ -24,11 +24,11 @@ pipeline {
                   for(int i = 2; i<stdout.length; i++ ){
                         println(stdout[i])
                       if(stdout[i].contains(checkPath)){
-                        print("Congratulations!!!!!!!!!!!!!!!!!!!")
+                        print("Congratulations!!!!!!!!!!!!!!!!!!! value is set to true")
                         BUILD_STAGE = "true"
                         break
                       }else{
-                        print("Else .................................:)")
+                        print("Else otherwise value is set to true .................................:)")
                       }
                   }
                 } // End of script
